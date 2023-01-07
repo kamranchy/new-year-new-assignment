@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+ .header{
+    background-image: url('../images/banner/banner2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+ } 
+/* banner style */
+.banner-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 65px;
+    text-align: right;
+    margin-top: 100px;
+    margin-right: 200px;
+}
+
+.banner-description {
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    margin-bottom: 32px;
+    margin-right: 200px;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 32px;
+    border: 0;
+    padding: 18px 25px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+}
+.banner .btn-primary{
+    margin-top: 0;
+    margin-left: 1000px;
+    margin-bottom: 150px;
+}
+
+/* style main section */
+main {
+    max-width: 1072px;
+    margin: 0 auto;
+}
+
+/* style about section */
+.about {}
+
+.about-info-container {
+    display: flex;
+    gap: 87px;
+    margin-bottom: 130px;
+}
+
+.about-info {
+    margin-top: 300px;
+}
+
+.section-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.section-description {
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.contact-description {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.about-info-container li {
+    list-style: none;
+}
+
+/* style skill section */
+.my-plan {}
+
+.skill-title {
+    color: #151414;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 86px;
+}
+.skill {
+    border-radius: 10px;
+    padding-bottom: 24px;
+    text-align: center;
+}
+.skill-position {
+    color: #151414;
+    font-weight: 900;
+    font-size: 30px;
+}
+.skill-description {
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+}
+/* styles service */
+ .service{
+    
+ }
+.services-container {
+    padding: 30px 10px;
+    margin-top: 70px;
+  }
+  .title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .title h4 {
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+  .services-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .single-service img {
+    width: 100%;
+  }
+  .single-service {
+    flex-basis: 32%;
+  }
+  .single-service h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .single-service a, .about-left a {
+    background-color: tomato;
+    display: inline-block;
+    text-decoration: navajowhite;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 15px;
+    margin-top: 20px;
+  }
+/* style positive mind */
+.positive-mind {
+    margin-bottom: 130px;
+    max-width: 1140px;
+}
+
+.positive-container {
+    background: linear-gradient(45deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(../images/watch.png);
+    margin-top: 124px; 
+}
+
+.positive-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding: 50px 64px;
+}
+
+.btn-second {
+    margin-left: 64px;
+    padding-top: 30px;
+    color: #FD6E0A;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    border: 0;
+    padding: 18px 25px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFFFFF;
+
+}
+
+/* style footer */
+.footer {
+    display: flex;
+    gap: 300px;
+    padding: 130px 230px;
+    background: #151414;
+}
+
+.contact-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+    padding-bottom: 16px;
+}
+
+.section-sub-title {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-bottom: 32px;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.contact-left-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+.btn-secondary {
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    padding: 18px 30px;
+}
+
+/* .footer input{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 18px 30px;
+} */
+
+.footer input[type="text"] {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 18px 30px;
+    background: transparent;
+    border-radius: 5px;
+}
